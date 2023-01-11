@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="O Melhor espaço para prática de esportes e festas da zona oeste.">
+  <title>ShareGramacho ONG</title>
+  <link href="./imgs/iconwhite.png" rel="shortcut icon">
+
+  <link href="output.css" rel="stylesheet">
+
+</head>
+<link rel="preload" href="./assets/fontawesome/css/all.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link rel="stylesheet" href="./assets/fontawesome/css/all.css">
+</noscript>
+<style>
+  html {
+    scroll-behavior: smooth;
+  }
+</style>
+
+<body class="bg-white">
+  <div class="relative bg-red-500 reveal_top">
+    <div class="absolute inset-x-0 bottom-0">
+      <svg viewBox="0 0 224 12" fill="currentColor" class="w-full -mb-1 text-white" preserveAspectRatio="none">
+        <path
+          d="M0,0 C48.8902582,6.27314026 86.2235915,9.40971039 112,9.40971039 C137.776408,9.40971039 175.109742,6.27314026 224,0 L224,12.0441132 L0,12.0441132 L0,0 Z">
+        </path>
+      </svg>
+    </div>
+    <div class="flex justify-center items-center">
+      <img src="./imgs/logowhite.png" class="w-[32rem] mt-10">
+    </div>
+    <div class="px-8 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl  lg:px-8 ">
+      <div class="relative max-w-2xl  flex flex-col justify-center items-center sm:mx-auto sm:max-w-xl md:max-w-xl text-center">
+        <h2 class="mb-4 font-sans text-xl font-bold tracking-tight text-white sm:text-4xl ">
+          Bem-vindo ao nosso Projeto Share<br class="hidden md:block" />
+         faça uma doação e seja um
+          <span class="relative inline-block px-2">
+            <div class="absolute inset-0 transform  -skew-x-12 bg-white"></div>
+            <span class="relative text-red-500 ">herói</span>
+          </span>
+        </h2>
+        <p class="  text-base sm:text-lg  sm:max-w-max max-w-xs text-white font-thin md:text-lg">
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+          aperiam, 
+        </p>
+
+
+        <a href="/" aria-label="Scroll down"
+          class="flex items-center justify-center w-10 h-10 mt-10 mx-auto text-white duration-300 transform border border-white rounded-full hover:text-teal-accent-400 hover:border-teal-accent-400 hover:shadow hover:scale-110">
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="currentColor">
+            <path
+              d="M10.293,3.293,6,7.586,1.707,3.293A1,1,0,0,0,.293,4.707l5,5a1,1,0,0,0,1.414,0l5-5a1,1,0,1,0-1.414-1.414Z">
+            </path>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+  <main class="flex justify-center">
+
+    <section class="py-6 ">
+      <div class="container grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4">
+        <img src="https://source.unsplash.com/random/301x301/" alt=""
+          class="w-full h-full scale_up col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-3 md:row-start-1   aspect-square">
+        <img alt="" class="w-full h-full scale_up rounded shadow-sm min-h-48  aspect-square"
+          src="https://source.unsplash.com/random/200x200/?0">
+        <img alt="" class="w-full h-full scale_up rounded shadow-sm min-h-48  aspect-square"
+          src="https://source.unsplash.com/random/200x200/?1">
+        <img alt="" class="w-full h-full scale_up rounded shadow-sm min-h-48   aspect-square"
+          src="https://source.unsplash.com/random/200x200/?2">
+        <img alt="" class="w-full h-full scale_up rounded shadow-sm min-h-48   aspect-square"
+          src="https://source.unsplash.com/random/200x200/?3">
+        <img alt="" class="w-full h-full scale_up rounded shadow-sm min-h-48   aspect-square"
+          src="https://source.unsplash.com/random/200x200/?4">
+        <img alt="" class="w-full h-full scale_up rounded shadow-sm min-h-48   aspect-square"
+          src="https://source.unsplash.com/random/200x200/?5">
+        <img alt="" class="w-full h-full scale_up rounded shadow-sm min-h-48   aspect-square"
+          src="https://source.unsplash.com/random/200x200/?6">
+        <img alt="" class="w-full h-full scale_up rounded shadow-sm min-h-48   aspect-square"
+          src="https://source.unsplash.com/random/200x200/?7">
+        <img src="https://source.unsplash.com/random/302x302/" alt=""
+          class="w-full h-full col-span-2 scale_up row-span-2 rounded shadow-sm min-h-96 md:col-start-1 md:row-start-3   aspect-square">
+      </div>
+    </section>
+  </main>
+</body>
+<script src="./assets/scrollreveal.js"></script>
+<script>
+  ScrollReveal({ reset: false });
+  ScrollReveal().reveal('.reveal_flip', { rotate: { x: 20, z: 180 }, duration: 1000, delay: 300 });
+  ScrollReveal().reveal('.reveal_bottom', { origin: 'bottom', distance: '400px', delay: 300 });
+  ScrollReveal().reveal('.reveal_top', { easing: 'ease-in-out', origin: 'top', distance: '400px', delay: 300 });
+  ScrollReveal().reveal('.reveal_left_delay', { origin: 'left', distance: '100px', delay: 700 });
+  ScrollReveal().reveal('.reveal_left', { origin: 'left', distance: '100px', delay: 400, });
+  ScrollReveal().reveal('.reveal_right', { origin: 'right', distance: '100px', delay: 400 });
+  ScrollReveal().reveal('.reveal_right_pic', { easing: "ease-in-out", origin: 'right', distance: '100px', delay: 400 });
+  ScrollReveal().reveal('.scale_up', { scale: 0.85, delay: 500 });
+</script>
+
+</html>
