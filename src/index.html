@@ -22,90 +22,228 @@
 </style>
 
 <body class="bg-white">
-  <div class="relative bg-red-500 reveal_top">
-    <div class="absolute inset-x-0 bottom-0">
-      <svg viewBox="0 0 224 12" fill="currentColor" class="w-full -mb-1 text-white" preserveAspectRatio="none">
-        <path
-          d="M0,0 C48.8902582,6.27314026 86.2235915,9.40971039 112,9.40971039 C137.776408,9.40971039 175.109742,6.27314026 224,0 L224,12.0441132 L0,12.0441132 L0,0 Z">
-        </path>
-      </svg>
-    </div>
-    <div class="flex justify-center items-center">
-      <img src="./imgs/logowhite.png" class="w-[32rem] mt-10">
-    </div>
-    <div class="px-8 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl  lg:px-8 ">
-      <div
-        class="relative max-w-3xl  flex flex-col justify-center items-center sm:mx-auto sm:max-w-xl md:max-w-xl text-center">
-        <h2 class="mb-2 font-sans text-xl font-bold tracking-tight text-white sm:text-4xl ">
-          Bem-vindo ao nosso Projeto Share<br class="" />
-          faça uma doação e seja um
-          <span class="relative inline-block px-2">
-            <div class="absolute inset-0 transform  -skew-x-12 bg-white"></div>
-            <span class="relative text-red-500 ">herói</span>
-          </span>
-        </h2>
-        <p class=" text-white font-thin">
-          Somos um grupo de amigos apaixonados loucamente em praticar o bem, mobilizar pessoas para promover ações
-          sociais e transformar vidas.
-        </p>
+  <section id="donation"  style="display: none;" class="flex justify-center items-center h-screen">
 
-        <button class="mt-5 bg-white text-red-500 px-4 py-2 font-semibold rounded-xl group duration-500 hover:scale-110"> <i class=" group-hover:rotate-45 duration-700 fa-solid fa-handshake-angle mr-2"></i> Fazer uma doação</button>
+    <section class="bg-white">
+      <div class="lg:grid lg:min-h-screen lg:grid-cols-12 -mt-72 sm:mt-0">
+        <section class="relative flex h-44 items-end bg-gray-900 lg:col-span-5 lg:h-full xl:col-span-6">
+          <img alt="Night" src="./imgs/banner.jpg" class="absolute inset-0 h-full w-full opacity-80 object-cover " />
+
+          <div class="hidden lg:relative lg:block lg:p-12">
+            <a class="block text-white" href="/">
+              <span class="sr-only">Home</span>
+              <img class="w-16" src="./imgs/iconwhite.png">
+            </a>
+
+            <h2 class="mt-6 text-2xl font-bold text-white sm:text-3xl md:text-4xl">
+              Faça parte do nosso projeto 💗
+            </h2>
+
+            <p class="mt-4 leading-relaxed text-white/90">
+
+              Ação Social é uma forma de protesto à desigualdade muito mais profunda que Assistência social ou Serviço
+              social, procurando ir às causas da violência, desrespeito aos direitos humanos, desemprego, concentração
+              de terras, ausência de rendas, e tudo que colaborar com a miséria social e econômica.
+            </p>
+          </div>
+        </section>
+
+        <main aria-label="Main"
+          class="flex items-center justify-center px-8 py-8 sm:px-12 lg:col-span-7 lg:py-12 lg:px-16 xl:col-span-6">
+          <div class="max-w-xl lg:max-w-3xl">
+            <div class="relative -mt-16  block lg:hidden">
+              <a class="inline-flex h-16 w-16 items-center justify-center rounded-full bg-white text-blue-600 sm:h-20 sm:w-20"
+                href="/">
+                <span class="sr-only">Home</span>
+                <img class="w-full" src="./imgs/iconred.png ">
+              </a>
+
+              <h1 class="mt-2 text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl">
+                Faça parte do nosso projeto 💗
+              </h1>
+
+              <p class="mt-4 leading-relaxed text-gray-500">
+                Somos um grupo de amigos apaixonados loucamente em praticar o bem, mobilizar pessoas para promover ações
+                sociais e transformar vidas...
+              </p>
+            </div>
+
+            <form action="#" class="mt-8 grid grid-cols-6 gap-6">
+              <div class="col-span-6">
 
 
-        <a href="#acoes" aria-label="Scroll down"
-          class="flex items-center justify-center floating w-10 h-10 mt-10 mb-10 mx-auto text-white duration-300 transform border border-white rounded-full hover:text-teal-accent-400 hover:border-teal-accent-400 hover:shadow hover:scale-110">
-          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="currentColor">
-            <path
-              d="M10.293,3.293,6,7.586,1.707,3.293A1,1,0,0,0,.293,4.707l5,5a1,1,0,0,0,1.414,0l5-5a1,1,0,1,0-1.414-1.414Z">
-            </path>
-          </svg>
-        </a>
-      </div>
-    </div>
-  </div>
-  <main class="flex justify-center">
-
-    <section id="acoes" class="py-6 ">
-      <div class="container grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4 scale_up ">
-        <div class="scale_up scale_up col-span-2 row-span-2  md:col-start-3 md:row-start-1 "><img
-            src="./imgs/acoes/1 (11).jpg" alt=""
-            class="w-full h-full rounded shadow-sm min-h-96  object-cover   aspect-square">
-        </div>
-        <div class="scale_up"> <img alt="" class="w-full h-full rounded shadow-sm min-h-48 object-cover aspect-square"
-            src="./imgs/acoes/1 (2).jpg"> </div>
-        <div class="scale_up"> <img alt="" class="w-full h-full rounded shadow-sm min-h-48 object-cover  aspect-square"
-            src="./imgs/acoes/1 (3).jpg"></div>
-        <div class="scale_up"> <img alt="" class="w-full h-full rounded shadow-sm min-h-48 object-cover   aspect-square"
-            src="./imgs/acoes/1 (4).jpg"></div>
-        <div class="scale_up"><img alt="" class="w-full h-full rounded shadow-sm min-h-48 object-cover   aspect-square"
-            src="./imgs/acoes/1 (5).jpg"></div>
-        <div class="scale_up"><img alt="" class="w-full h-full rounded shadow-sm min-h-48 object-cover   aspect-square"
-            src="./imgs/acoes/1 (6).jpg"></div>
-        <div class="scale_up"> <img alt="" class="w-full h-full rounded shadow-sm min-h-48 object-cover   aspect-square"
-            src="./imgs/acoes/1 (7).jpg"></div>
-        <div class="scale_up"><img alt="" class="w-full h-full rounded shadow-sm min-h-48 object-cover   aspect-square"
-            src="./imgs/acoes/1 (8).jpg"></div>
-        <div class="scale_up"><img alt="" class="w-full h-full rounded shadow-sm min-h-48  object-cover  aspect-square"
-            src="./imgs/acoes/1 (9).jpg"></div>
-        <div class="scale_up scale_up col-span-2 row-span-2  md:col-start-3 md:row-start-1 ">
-          <img src="./imgs/acoes/1 (10).jpg" alt=""
-            class="w-full h-full  rounded shadow-sm min-h-96   object-cover  aspect-square">
-        </div>
+                <input type="text" id="FirstName" placeholder="Nome Completo" name="first_name"
+                  class="mt-1 w-full p-4 rounded-md border-gray-200 bg-gray-100 text-sm text-gray-700 shadow-sm" />
+              </div>
 
 
 
+              <div class="col-span-3">
+                <select class="mt-1 w-full p-4 rounded-md border-gray-200 bg-gray-100 text-sm text-gray-700 shadow-sm">
+                  <option>Você é uma PJ ou PF? </option>
+                  <option>Pessoa Fisica</option>
+                  <option>Pessoa Jurídica</option>
+                </select>
+              </div>
 
+              <div class="col-span-3">
+                <input type="text" id="FirstName" placeholder="Seu CPF/CNPJ" name="first_name"
+                  class="mt-1 w-full p-4 rounded-md border-gray-200 bg-gray-100 text-sm text-gray-700 shadow-sm" />
+              </div>
+              <!-- <div class="col-span-6">
+            <label for="MarketingAccept" class="flex gap-4">
+              <input
+                type="checkbox"
+                id="MarketingAccept"
+                name="marketing_accept"
+                class="h-5 w-5 rounded-md border-gray-200 bg-white shadow-sm"
+              />
 
+              <span class="text-sm text-gray-700">
+             a
+              </span>
+            </label>
+          </div> -->
 
+              <div class="col-span-6">
+                <p class="text-sm text-gray-500">
+                  Somos um organização social criada há x anos, se possuir quaisquer duvidas antes de doar visite nossas
+                  <a href="#" class="text-gray-700 underline">
+                    redes sociais
+                  </a>
 
+                </p>
+              </div>
 
+              <div class="col-span-6 flex items-center justify-center gap-4">
+                <button
+                  class="inline-block shrink-0 sm:w-1/2  rounded-md  duration-500  bg-green-500 px-12 py-3 text-sm font-medium text-white transition hover:bg-transparent border-2  border-transparent hover:border-green-500 hover:text-green-500 focus:outline-none focus:ring active:text-green-500">
+                  <i class="fa-solid fa-coins fa-lg mr-2"></i> Doar Dinheiro
+                </button>
 
-
+                <button
+                  class="inline-block shrink-0 sm:w-1/2 rounded-md border-2  border-transparent hover:border-red-500 duration-500  bg-red-500 px-12 py-3 text-sm font-medium text-white transition hover:bg-transparent hover:text-red-600 focus:outline-none focus:ring active:text-red-500">
+                  <i class="fa-solid fa-heart-pulse mr-2 fa-lg"></i> Doar Outros
+                </button>
+              </div>
+            </form>
+          </div>
+        </main>
       </div>
     </section>
-  </main>
+    </div>
+  </section>
+
+
+  <section id="initial">
+    <div class="relative bg-red-500 reveal_top">
+      <div class="absolute inset-x-0 bottom-0">
+        <svg viewBox="0 0 224 12" fill="currentColor" class="w-full -mb-1 text-white" preserveAspectRatio="none">
+          <path
+            d="M0,0 C48.8902582,6.27314026 86.2235915,9.40971039 112,9.40971039 C137.776408,9.40971039 175.109742,6.27314026 224,0 L224,12.0441132 L0,12.0441132 L0,0 Z">
+          </path>
+        </svg>
+      </div>
+      <div class="flex justify-center items-center">
+        <img src="./imgs/logowhite.png" class="w-[32rem] mt-10">
+      </div>
+      <div class="px-8 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl  lg:px-8 ">
+        <div
+          class="relative max-w-3xl  flex flex-col justify-center items-center sm:mx-auto sm:max-w-xl md:max-w-xl text-center">
+          <h2 class="mb-2 font-sans text-xl font-bold tracking-tight text-white sm:text-4xl ">
+            Bem-vindo ao nosso Projeto Share<br class="" />
+            faça uma doação e seja um
+            <span class="relative inline-block px-2">
+              <div class="absolute inset-0 transform  -skew-x-12 bg-white"></div>
+              <span class="relative text-red-500 ">herói</span>
+            </span>
+          </h2>
+          <p class=" text-white font-thin">
+            Somos um grupo de amigos apaixonados loucamente em praticar o bem, mobilizar pessoas para promover ações
+            sociais e transformar vidas.
+          </p>
+
+          <button onclick="openDonation()"
+            class="mt-8 bg-white text-red-500 px-4 py-2 font-semibold rounded-xl group duration-500 hover:scale-110"> <i
+              class=" group-hover:rotate-45 duration-700 fa-solid fa-handshake-angle mr-2"></i> Fazer uma
+            doação</button>
+
+
+          <a href="#acoes" aria-label="Scroll down"
+            class="flex items-center justify-center floating w-10 h-10 mt-10 mb-10 mx-auto text-white duration-300 transform border border-white rounded-full hover:text-teal-accent-400 hover:border-teal-accent-400 hover:shadow hover:scale-110">
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="currentColor">
+              <path
+                d="M10.293,3.293,6,7.586,1.707,3.293A1,1,0,0,0,.293,4.707l5,5a1,1,0,0,0,1.414,0l5-5a1,1,0,1,0-1.414-1.414Z">
+              </path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <main class="flex justify-center">
+
+      <section id="acoes" class="py-6 ">
+        <div class="container grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4 scale_up ">
+          <div class="scale_up scale_up col-span-2 row-span-2  md:col-start-3 md:row-start-1 "><img
+              src="./imgs/acoes/1 (11).jpg" alt=""
+              class="w-full h-full rounded shadow-sm min-h-96  object-cover   aspect-square">
+          </div>
+          <div class="scale_up"> <img alt="" class="w-full h-full rounded shadow-sm min-h-48 object-cover aspect-square"
+              src="./imgs/acoes/1 (2).jpg"> </div>
+          <div class="scale_up"> <img alt=""
+              class="w-full h-full rounded shadow-sm min-h-48 object-cover  aspect-square" src="./imgs/acoes/1 (3).jpg">
+          </div>
+          <div class="scale_up"> <img alt=""
+              class="w-full h-full rounded shadow-sm min-h-48 object-cover   aspect-square"
+              src="./imgs/acoes/1 (4).jpg"></div>
+          <div class="scale_up"><img alt=""
+              class="w-full h-full rounded shadow-sm min-h-48 object-cover   aspect-square"
+              src="./imgs/acoes/1 (5).jpg"></div>
+          <div class="scale_up"><img alt=""
+              class="w-full h-full rounded shadow-sm min-h-48 object-cover   aspect-square"
+              src="./imgs/acoes/1 (6).jpg"></div>
+          <div class="scale_up"> <img alt=""
+              class="w-full h-full rounded shadow-sm min-h-48 object-cover   aspect-square"
+              src="./imgs/acoes/1 (7).jpg"></div>
+          <div class="scale_up"><img alt=""
+              class="w-full h-full rounded shadow-sm min-h-48 object-cover   aspect-square"
+              src="./imgs/acoes/1 (8).jpg"></div>
+          <div class="scale_up"><img alt=""
+              class="w-full h-full rounded shadow-sm min-h-48  object-cover  aspect-square"
+              src="./imgs/acoes/1 (9).jpg"></div>
+          <div class="scale_up scale_up col-span-2 row-span-2  md:col-start-3 md:row-start-1 ">
+            <img src="./imgs/acoes/1 (10).jpg" alt=""
+              class="w-full h-full  rounded shadow-sm min-h-96   object-cover  aspect-square">
+          </div>
+
+
+
+
+
+
+
+
+
+
+        </div>
+      </section>
+    </main>
+  </section>
 </body>
 <script src="./assets/scrollreveal.js"></script>
+<script>
+  function openDonation() {
+    const mainpage = document.getElementById("initial")
+    const donationpage = document.getElementById("donation")
+    if(donationpage.style.display == "none"){
+      mainpage.style.display = "none"
+      donationpage.style.display = "flex"
+    }else{
+      mainpage.style.display = "block"
+      donationpage.style.display = "none"
+    }
+  }
+</script>
 <script>
   ScrollReveal({ reset: false });
   ScrollReveal().reveal('.reveal_flip', { rotate: { x: 20, z: 180 }, duration: 1000, delay: 300 });
