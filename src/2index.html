@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="O Melhor espaço para prática de esportes e festas da zona oeste.">
+  <title>ShareVida - Seja um herói</title>
+  <link href="./imgs/iconwhite.png" rel="shortcut icon">
+
+  <link href="output.css" rel="stylesheet">
+  <link href="custom.css" rel="stylesheet">
+</head>
+<link rel="preload" href="./assets/fontawesome/css/all.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link rel="stylesheet" href="./assets/fontawesome/css/all.css">
+</noscript>
+<style>
+  html {
+    scroll-behavior: smooth;
+  }
+</style>
+
+<body class="bg-white">
+  <section id="donation" style="display: none;" class="flex justify-center items-center h-screen">
+
+    <section class="bg-white">
+      <div class="lg:grid lg:min-h-screen lg:grid-cols-12  sm:mt-0">
+        <section class="relative flex h-44 items-end bg-gray-900 lg:col-span-5 lg:h-full xl:col-span-6">
+          <img alt="Night" src="./imgs/banner.jpg" class="absolute inset-0 h-full w-full opacity-80 object-cover " />
+
+          <div class="hidden lg:relative lg:block lg:p-12">
+            <a class="block text-white" href="/">
+              <span class="sr-only">Home</span>
+              <img class="w-16" src="./imgs/iconwhite.png">
+            </a>
+
+            <h2 class="mt-6 text-2xl font-bold text-white sm:text-3xl md:text-4xl">
+              Faça parte do nosso projeto 💗
+            </h2>
+
+            <p class="mt-4 leading-relaxed text-white/90">
+
+              Ação Social é uma forma de protesto à desigualdade muito mais profunda que Assistência social ou Serviço
+              social, procurando ir às causas da violência, desrespeito aos direitos humanos, desemprego, concentração
+              de terras, ausência de rendas, e tudo que colaborar com a miséria social e econômica.
+            </p>
+          </div>
+        </section>
+
+        <main aria-label="Main"
+          class="flex items-center justify-center px-8 py-8 sm:px-12 lg:col-span-7 lg:py-12 lg:px-16 xl:col-span-6">
+          <div class="max-w-xl lg:max-w-3xl">
+            <div class="relative -mt-16  block lg:hidden">
+              <a class="inline-flex h-16 w-16 items-center justify-center rounded-full bg-white text-blue-600 sm:h-20 sm:w-20"
+                href="/">
+                <span class="sr-only">Home</span>
+                <img class="w-full" src="./imgs/iconred.png ">
+              </a>
+
+              <h1 class="mt-2 text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl">
+                Faça parte do nosso projeto 💗
+              </h1>
+
+              <p class="mt-4 leading-relaxed text-gray-500">
+                Somos um grupo de amigos apaixonados loucamente em praticar o bem, mobilizar pessoas para promover ações
+                sociais e transformar vidas...
+              </p>
+            </div>
+
+            <form action="#" class="mt-8 grid grid-cols-6 gap-6">
+              <div class="col-span-6">
+
+
+                <input type="text" id="FirstName" placeholder="Nome Completo" name="first_name"
+                  class="mt-1 w-full p-4 rounded-md border-gray-200 bg-gray-100 text-sm text-gray-700 shadow-sm" />
+              </div>
+
+
+
+              <div class="col-span-3">
+                <select class="mt-1 w-full p-4 rounded-md border-gray-200 bg-gray-100 text-sm text-gray-700 shadow-sm">
+                  <option>Você é uma PJ ou PF? </option>
+                  <option>Pessoa Fisica</option>
+                  <option>Pessoa Jurídica</option>
+                </select>
+              </div>
+
+              <div class="col-span-3">
+                <input type="text" id="FirstName" placeholder="Seu CPF/CNPJ" name="first_name"
+                  class="mt-1 w-full p-4 rounded-md border-gray-200 bg-gray-100 text-sm text-gray-700 shadow-sm" />
+              </div>
+              <!-- <div class="col-span-6">
+            <label for="MarketingAccept" class="flex gap-4">
+              <input
+                type="checkbox"
+                id="MarketingAccept"
+                name="marketing_accept"
+                class="h-5 w-5 rounded-md border-gray-200 bg-white shadow-sm"
+              />
+
+              <span class="text-sm text-gray-700">
+             a
+              </span>
+            </label>
+          </div> -->
+
+              <div class="col-span-6">
+                <p class="text-sm text-gray-500">
+                  Somos um organização social criada há x anos, se possuir quaisquer duvidas antes de doar visite nossas
+                  <a href="#" class="text-gray-700 underline">
+                    redes sociais
+                  </a>
+
+                </p>
+              </div>
+
+              <div class="col-span-6 flex items-center justify-center gap-4">
+                <button
+                  class="inline-block shrink-0 w-[50%] sm:w-1/2  rounded-md  duration-500  bg-green-500 px-12 py-3 text-xs sm:text-sm font-medium text-white transition hover:bg-transparent border-2  border-transparent hover:border-green-500 hover:text-green-500 focus:outline-none focus:ring active:text-green-500">
+                  <i class="fa-solid fa-coins fa-lg mr-2"></i> Doar Dinheiro
+                </button>
+
+                <button
+                  class="inline-block shrink-0 w-[50%]  sm:w-1/2 rounded-md border-2  border-transparent hover:border-red-500 duration-500  bg-red-500 px-12 py-3  text-xs sm:text-sm font-medium text-white transition hover:bg-transparent hover:text-red-600 focus:outline-none focus:ring active:text-red-500">
+                  <i class="fa-solid fa-heart-pulse mr-2 fa-lg"></i> Doar Outros
+                </button>
+              </div>
+            </form>
+          </div>
+        </main>
+      </div>
+    </section>
+    </div>
+  </section>
+
+
+  <section id="initial">
+
+    <aside style="background-image: url(./imgs/pattern.webp);" class="">
+      <div class="bg-white/95 backdrop-saturate-0">
+        <div class="px-4 py-6 mx-auto lg:py-8 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+          <div class="relative flex items-center justify-between lg:justify-center lg:space-x-16">
+            <ul class="flex items-center hidden space-x-8 lg:flex">
+              <li><a href="/" aria-label="Our product" title="Our product"
+                  class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Product</a>
+              </li>
+              <li><a href="/" aria-label="Our product" title="Our product"
+                  class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Features</a>
+              </li>
+              <li><a href="/" aria-label="Product pricing" title="Product pricing"
+                  class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Pricing</a>
+              </li>
+            </ul>
+            <img class="w-20 sm:-m-8 -m-2" src="./imgs/iconred.png">
+            </a>
+            <ul class="flex items-center hidden space-x-8 lg:flex">
+              <li><a href="/" aria-label="About us" title="About us"
+                  class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">About
+                  us</a></li>
+              <li><a href="/" aria-label="Sign in" title="Sign in"
+                  class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Sign
+                  in</a></li>
+              <li><a href="/" aria-label="Sign up" title="Sign up"
+                  class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Sign
+                  up</a></li>
+            </ul>
+            <!-- Mobile menu -->
+            <div class="lg:hidden">
+              <button aria-label="Open Menu" title="Open Menu"
+                class="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-deep-purple-50 focus:bg-deep-purple-50">
+                <svg class="w-5 text-gray-600" viewBox="0 0 24 24">
+                  <path fill="currentColor" d="M23,13H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,13,23,13z">
+                  </path>
+                  <path fill="currentColor" d="M23,6H1C0.4,6,0,5.6,0,5s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,6,23,6z">
+                  </path>
+                  <path fill="currentColor" d="M23,20H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,20,23,20z">
+                  </path>
+                </svg>
+              </button>
+              <!-- Mobile menu dropdown 
+          <div class="absolute top-0 left-0 w-full">
+            <div class="p-5 bg-white border rounded shadow-sm">
+              <div class="flex items-center justify-between mb-4">
+                <div>
+                  <a href="/" aria-label="Company" title="Company" class="inline-flex items-center">
+                    <svg class="w-8 text-deep-purple-accent-400" viewBox="0 0 24 24" stroke-linejoin="round" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" stroke="currentColor" fill="none">
+                      <rect x="3" y="1" width="7" height="12"></rect>
+                      <rect x="3" y="17" width="7" height="6"></rect>
+                      <rect x="14" y="1" width="7" height="6"></rect>
+                      <rect x="14" y="11" width="7" height="12"></rect>
+                    </svg>
+                    <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">Company</span>
+                  </a>
+                </div>
+                <div>
+                  <button aria-label="Close Menu" title="Close Menu" class="p-2 -mt-2 -mr-2 transition duration-200 rounded hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
+                    <svg class="w-5 text-gray-600" viewBox="0 0 24 24">
+                      <path
+                        fill="currentColor"
+                        d="M19.7,4.3c-0.4-0.4-1-0.4-1.4,0L12,10.6L5.7,4.3c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4l6.3,6.3l-6.3,6.3 c-0.4,0.4-0.4,1,0,1.4C4.5,19.9,4.7,20,5,20s0.5-0.1,0.7-0.3l6.3-6.3l6.3,6.3c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3 c0.4-0.4,0.4-1,0-1.4L13.4,12l6.3-6.3C20.1,5.3,20.1,4.7,19.7,4.3z"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <nav>
+                <ul class="space-y-4">
+                  <li><a href="/" aria-label="Our product" title="Our product" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Product</a></li>
+                  <li><a href="/" aria-label="Our product" title="Our product" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Features</a></li>
+                  <li><a href="/" aria-label="Product pricing" title="Product pricing" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Pricing</a></li>
+                  <li><a href="/" aria-label="About us" title="About us" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">About us</a></li>
+                  <li><a href="/" aria-label="Sign in" title="Sign in" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Sign in</a></li>
+                  <li>
+                    <a
+                      href="/"
+                      class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                      aria-label="Sign up"
+                      title="Sign up"
+                    >
+                      Sign up
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          -->
+            </div>
+          </div>
+        </div>
+
+        <div class="px-4 mt-4  sm:mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 mx-4">
+          <div class="flex flex-col items-center justify-between lg:flex-row">
+            <div class="mb-10 lg:max-w-lg lg:pr-5 lg:mb-0">
+              <div class="max-w-xl mb-6">
+
+                <h2
+                  class="max-w-lg mb-6 font- text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+                  Sua doação salva vidas! <br class="sm:block hidden">Seja um herói ajude a ShareVida.
+                </h2>
+                <p class="text-base text-gray-700 md:text-lg">
+                  Somos um grupo de amigos apaixonados loucamente em praticar o bem, mobilizar pessoas para promover
+                  ações
+                  sociais e transformar vidas.
+                </p>
+              </div>
+              <div class="flex flex-col items-center md:flex-row">
+                <a href="/"
+                  class="inline-flex items-center justify-center w-full h-12 px-6 mb-3 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto md:mr-4 md:mb-0 bg-red-600 hover:bg-red-800 focus:shadow-outline focus:outline-none">
+                  <span class="mr-3">Faça uma doação </span>
+                  <i class="fa-solid fa-hands-holding-child"></i>
+                </a>
+                <a href="/"
+                  class="inline-flex items-center justify-center w-full h-12 px-6 mb-3 font-medium tracking-wide text-white transition duration-200 rounded  md:w-auto md:mr-4 md:mb-0 bg-red-500/70 hover:bg-red-500/90 ">
+                  <span class="">Sobre Nós </span>
+
+                </a>
+              </div>
+            </div>
+            <div class="relative lg:w-1/2">
+              <img class="object-cover w-full h-56 rounded shadow-lg sm:h-96" src="./imgs/acoes/1 (4).jpg" alt="" />
+              <a href="/" aria-label="Play Video"
+                class="absolute inset-0 flex items-center justify-center w-full h-full transition-colors duration-300 bg-gray-900 bg-opacity-50 group hover:bg-opacity-25">
+                <div
+                  class="flex items-center justify-center w-16 h-16 transition duration-300 transform bg-gray-100 rounded-full shadow-2xl group-hover:scale-110">
+                  <svg class="w-10 text-gray-900" fill="currentColor" viewBox="0 0 24 24">
+                    <path
+                      d="M16.53,11.152l-8-5C8.221,5.958,7.833,5.949,7.515,6.125C7.197,6.302,7,6.636,7,7v10 c0,0.364,0.197,0.698,0.515,0.875C7.667,17.958,7.833,18,8,18c0.184,0,0.368-0.051,0.53-0.152l8-5C16.822,12.665,17,12.345,17,12 S16.822,11.335,16.53,11.152z">
+                    </path>
+                  </svg>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <section class="">
+          <div class="mx-auto max-w-screen-xl px-4  sm:px-6 lg:px-8">
+           
+        
+            <div class="mt-8 sm:mt-12">
+              <dl class="grid grid-cols-1 gap-4 sm:grid-cols-3">
+                <div
+                  class="flex flex-col rounded-lg px-4 py-8 text-center"
+                >
+                  <dt class="order-last text-lg font-medium text-gray-500">
+                    Total Sales
+                  </dt>
+        
+                  <dd class="text-4xl font-extrabold text-red-600 md:text-5xl">
+                    $4.8m
+                  </dd>
+                </div>
+        
+                <div
+                  class="flex flex-col rounded-lg px-4 py-8 text-center"
+                >
+                  <dt class="order-last text-lg font-medium text-gray-500">
+                    Official Addons
+                  </dt>
+        
+                  <dd class="text-4xl font-extrabold text-red-600 md:text-5xl">24</dd>
+                </div>
+        
+                <div
+                  class="flex flex-col rounded-lg   px-4 py-8 text-center"
+                >
+                  <dt class="order-last text-lg font-medium text-gray-500">
+                    Total Addons
+                  </dt>
+        
+                  <dd class="text-4xl font-extrabold text-red-600 md:text-5xl">86</dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+        </section>
+      </div>
+    </aside>
+  </section>
+</body>
+<script src="./assets/scrollreveal.js"></script>
+<script>
+  function openDonation() {
+    const mainpage = document.getElementById("initial")
+    const donationpage = document.getElementById("donation")
+    if (donationpage.style.display == "none") {
+      mainpage.style.display = "none"
+      donationpage.style.display = "block"
+    } else {
+      mainpage.style.display = "block"
+      donationpage.style.display = "none"
+    }
+  }
+</script>
+<script>
+  ScrollReveal({ reset: false });
+  ScrollReveal().reveal('.reveal_flip', { rotate: { x: 20, z: 180 }, duration: 1000, delay: 300 });
+  ScrollReveal().reveal('.reveal_bottom', { origin: 'bottom', distance: '400px', delay: 300 });
+  ScrollReveal().reveal('.reveal_top', { easing: 'ease-in-out', origin: 'top', distance: '400px', delay: 300 });
+  ScrollReveal().reveal('.reveal_left_delay', { origin: 'left', distance: '100px', delay: 700 });
+  ScrollReveal().reveal('.reveal_left', { origin: 'left', distance: '100px', delay: 400, });
+  ScrollReveal().reveal('.reveal_right', { origin: 'right', distance: '100px', delay: 400 });
+  ScrollReveal().reveal('.reveal_right_pic', { easing: "ease-in-out", origin: 'right', distance: '100px', delay: 400 });
+  ScrollReveal().reveal('.scale_up', { scale: 0.85, delay: 500 });
+</script>
+
+</html>
